@@ -1,64 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Java Bloom Cafe</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Java Bloom Café - Freshly brewed coffee, delicious pastries, and a cozy neighborhood atmosphere in Nairobi." />
+  <meta name="keywords" content="Java Bloom Café, coffee, Nairobi, espresso, cappuccino, pastries, café" />
+  <meta name="author" content="Java Bloom Team" />
+  <title>Java Bloom Café | Freshly Brewed Coffee in Nairobi</title>
 </head>
 <body>
   <header>
-    <h1>Welcome to Java Bloom Cafe</h1>
-    <nav>
+    <h1>Welcome to Java Bloom Café</h1>
+    <nav aria-label="Main navigation">
       <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">Menu</a></li>
-        <li><a href="">Contact Us</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact Us</a></li>
       </ul>
     </nav>
   </header>
+
   <main>
-    <section>
-      <h2>Home</h2>
-      <img src="coffe.jpeg" alt="">
-      <p>Welcome to Java Bloom Café, your neighborhood spot for handcrafted coffee and freshly baked pastries. Our beans are locally sourced and roasted weekly for maximum flavour.</p>
+    <section id="home" aria-labelledby="home-heading">
+      <h2 id="home-heading">Home</h2>
+      <img src="coffe.jpeg" alt="Cup of freshly brewed coffee" />
+      <p>
+        Welcome to Java Bloom Café, your neighborhood spot for handcrafted coffee and freshly baked pastries. Our beans are locally sourced and roasted weekly for maximum flavour.
+      </p>
     </section>
-    <section>
-      <h2>Menu</h2>
+
+    <section id="menu" aria-labelledby="menu-heading">
+      <h2 id="menu-heading">Menu</h2>
+
       <h3>Espresso</h3>
       <p>An intense shot of coffee with rich flavour and bold taste.</p>
 
       <h3>Cappuccino</h3>
-      <p>The <em>perfect</em> blend of creamy, smooth and flavourful coffee</p>
+      <p>The <em>perfect</em> blend of creamy, smooth, and flavourful coffee.</p>
 
       <h3>Mocha</h3>
       <p>Our recommended chocolatey sweet and rich beverage.</p>
 
       <h3>Americano</h3>
-      <p>Lorem ipsum dolor sit amet adipiscing et dolore magna aliqua.</p>
+      <p>Smooth, bold coffee made by diluting espresso with hot water.</p>
 
       <h3>Frappe</h3>
-      <p>Ut enim ad minim veniam nisi ut aliquip ex ea commodo consequat.</p>
-      
+      <p>A chilled, refreshing blend of coffee, ice, and milk—perfect for warm days.</p>
     </section>
 
-    <section>
-      <h2>Contact Us</h2>
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Us</h2>
 
       <h3>Opening Hours</h3>
       <ul>
-        <li>Monday - Saturday: 7a.m to 9p.m</li>
-        <li>Sunday: 9a.m to 6p.m</li>
+        <li>Monday - Saturday: 7 a.m. to 9 p.m.</li>
+        <li>Sunday: 9 a.m. to 6 p.m.</li>
       </ul>
 
       <h3>Visit Us</h3>
       <address>
-        Lumumba Drive, <br>
-        Nairobi, Kenya. <br>
+        Lumumba Drive, <br />
+        Nairobi, Kenya. <br />
         Phone: <a href="tel:+254712345678">+254 712 345 678</a><br />
         Email: <a href="mailto:info@javabloomcafe.com">info@javabloomcafe.com</a>
       </address>
-      
     </section>
   </main>
+
+  <footer>
+    <p>&copy; 2025 Java Bloom Café | <a href="#home">Back to Top</a></p>
+  </footer>
 </body>
 </html>
